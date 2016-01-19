@@ -7,8 +7,8 @@ package lambdas;
 public class Lambdas implements Runnable {
 
     public static void main(String args[]) {
-//        Runnable thread = new Lambdas();
-        Runnable thread = new Optionals();
+        Runnable thread = new Lambdas();
+//        Runnable thread = new Optionals();
         thread.run();
     }
 
